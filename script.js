@@ -3,7 +3,7 @@
 if (window.self !== window.top) {
   window.top.location = window.self.location;
 }
-
+    
 // Escapa caracteres HTML para prevenir XSS — nunca inserir input do utilizador em innerHTML diretamente
 function escapeHtml(str) {
   const el = document.createElement('div');
