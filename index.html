@@ -401,6 +401,7 @@
     .si-bounce { background: var(--blue); }
     .si-games { background: var(--yellow); }
     .si-party { background: var(--teal); }
+    .si-events { background: var(--orange); }
     .service-card h3 {
       font-size: 24px;
       margin-bottom: 10px;
@@ -1402,6 +1403,12 @@
           <p>Jogo das cadeiras, jogo do galo dinâmico, jogo da raposa, estafetas. Energia total garantida.</p>
           <span class="tag">30€/hora</span>
         </div>
+        <div class="service-card reveal" data-modal="modal-eventos">
+          <div class="service-icon si-events">🎊</div>
+          <h3>Eventos personalizados</h3>
+          <p>Casamentos, batizados e outras celebrações especiais. Animação e pinturas à medida do vosso evento.</p>
+          <span class="tag">Sob consulta</span>
+        </div>
         <div class="service-card reveal" data-modal="modal-packs">
           <div class="service-icon si-party">✨</div>
           <h3>Packs</h3>
@@ -1579,6 +1586,7 @@
                   <div class="chip" data-value="pinturas">🎨 Pinturas</div>
                   <div class="chip" data-value="insuflavel">🏰 Insuflável</div>
                   <div class="chip" data-value="jogos">🎯 Jogos</div>
+                  <div class="chip" data-value="eventos">🎊 Eventos personalizados</div>
                   <div class="chip" data-value="outros">🎈 Outros Serviços</div>
                 </div>
                 <div id="serviceOptions" class="service-options-panel"></div>
@@ -1671,6 +1679,7 @@
         <a href="#servicos">Pinturas faciais</a>
         <a href="#servicos">Insuflável</a>
         <a href="#jogos">Jogos tradicionais</a>
+        <a href="#servicos">Eventos personalizados</a>
         <a href="#precos">Packs</a>
       </div>
       <div class="footer-col">
@@ -1753,6 +1762,15 @@
       <button class="modal-close" data-modal-close="modal-packs" aria-label="Fechar">✕</button>
       <div class="modal-title">✨ Packs</div>
       <p class="modal-sub">Pinturas + insuflável + jogos numa combinação à medida. A solução mais pedida para aniversários.</p>
+    </div>
+  </div>
+
+  <!-- MODAL EVENTOS PERSONALIZADOS -->
+  <div class="modal-overlay" id="modal-eventos">
+    <div class="modal-box">
+      <button class="modal-close" data-modal-close="modal-eventos" aria-label="Fechar">✕</button>
+      <div class="modal-title">🎊 Eventos Personalizados</div>
+      <p class="modal-sub">Casamentos, batizados e outras celebrações especiais. Preparamos uma proposta à medida do vosso evento — pinturas, insuflável, jogos ou uma combinação — fala connosco para um orçamento sem compromisso.</p>
     </div>
   </div>
 

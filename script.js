@@ -222,6 +222,9 @@ const SERVICE_OPTIONS = {
   jogos:      { label: 'Jogos', sections: [
     { id: 'dur', label: 'Duração', multi: false, opts: ['1h00','1h30','2h00'] }
   ]},
+  eventos:    { label: 'Eventos personalizados', sections: [
+    { id: 'tipo', label: 'Tipo de evento', multi: false, opts: ['Casamento','Batizado','Outro evento'] }
+  ]},
   outros:     { label: 'Outros Serviços', sections: [
     { id: 'tipo', label: 'Serviço pretendido', multi: true, opts: ['Modelagem de balões + tatuagens temporárias','Pinhata pré-definida','Pinhata temática'] }
   ]}
